@@ -1,3 +1,3 @@
 [config]
-command = mkdir %DEPLOYMENT_TARGET%/bin/jetty-distribution-9.1.2.v20140210/webapps/root.war
-command = cp -rp %DEPLOYMENT_SOURCE%\sageharitest.war %DEPLOYMENT_TARGET%/bin/jetty-distribution-9.1.2.v20140210/webapps/root.war
+command = mkdir %DEPLOYMENT_TARGET%/webapps/root.war
+command = cp -rp %DEPLOYMENT_SOURCE%\sageharitest.war %DEPLOYMENT_TARGET%/webapps/root.war
