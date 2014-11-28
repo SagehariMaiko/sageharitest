@@ -1,2 +1,2 @@
 [config]
-command = cp %DEPLOYMENT_SOURCE%/target/sageharitestwar.war %DEPLOYMENT_TARGET%/bin/jetty-*/webapps/ROOT.war
+command = cp -rp %DEPLOYMENT_SOURCE%\sageharitestwar.war %DEPLOYMENT_TARGET%/webapps/ROOT.war
