@@ -1,5 +1,5 @@
 /tmp
 /modules
-/lib
+#/lib
 /test-result
 /logs
