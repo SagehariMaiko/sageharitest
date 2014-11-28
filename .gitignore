@@ -3,3 +3,17 @@
 #/lib
 /test-result
 /logs
+/.classpath
+/.project
+/.settings
+/eclipse
+/bin
+/application.log*
+*.pid
+/precompiled
+
+# for IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
