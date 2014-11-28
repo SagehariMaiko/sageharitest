@@ -1,3 +1,2 @@
 [config]
-command = chmod 777 %DEPLOYMENT_TARGET%/webapps/ROOT
-command = cp -rp %DEPLOYMENT_SOURCE%\sageharitest.war %DEPLOYMENT_TARGET%/webapps/ROOT
+command = cp -rp %DEPLOYMENT_SOURCE%\sageharitest.war %DEPLOYMENT_TARGET%/webapps/root.war
