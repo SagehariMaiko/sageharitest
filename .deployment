@@ -1,2 +1,2 @@
 [config]
-command = mkdir %DEPLOYMENT_TARGET%/webapps/root.war
+command = mkdir -p %DEPLOYMENT_TARGET%/webapps/root.war
