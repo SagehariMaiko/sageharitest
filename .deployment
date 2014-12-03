@@ -1,2 +1,2 @@
 [config]
-command = cp %DEPLOYMENT_SOURCE%\sageharitestwar.war %DEPLOYMENT_TARGET%/webapps/ROOT.war
+command = cp -r %DEPLOYMENT_SOURCE%\sagehari %DEPLOYMENT_TARGET%/webapps/root
