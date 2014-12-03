@@ -1,2 +1,2 @@
 [config]
-command = mkdir %DEPLOYMENT_TARGET%\webapps
+command = mkdir %DEPLOYMENT_TARGET%\webapps\root
