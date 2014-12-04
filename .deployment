@@ -1,2 +1,2 @@
 [config]
-command = cp -r %DEPLOYMENT_SOURCE%\sagehari\ %DEPLOYMENT_TARGET%\bin\jetty-distribution-9.1.2.v20140210\root
+command = cp -r %DEPLOYMENT_SOURCE%\sagehari\ %DEPLOYMENT_TARGET%\bin\jetty-distribution-9.1.2.v20140210\webapps\root
