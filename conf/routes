@@ -6,7 +6,6 @@
 
 GET		/										Application.index
 GET		/login									Secure.login
-POST	/login									Secure.authenticate
 GET     /logout         						Secure.logout
 
 
