@@ -65,7 +65,7 @@ public class Secure extends Controller {
         render();
     }
 
-    public static void authenticate(@Required String username, String password, boolean remember) throws Throwable {
+    public static void authenticate(@Required String username, String password) throws Throwable {
         // Check tokens
         Boolean allowed = false;
         try {
@@ -84,13 +84,13 @@ public class Secure extends Controller {
         // Mark user as connected
         session.put("username", username);
         // Remember if needed
-        if(remember) {
+        /*if(remember) {
             Date expiration = new Date();
             String duration = Play.configuration.getProperty("secure.rememberme.duration","30d"); 
             expiration.setTime(expiration.getTime() + Time.parseDuration(duration) * 1000 );
             response.setCookie("rememberme", Crypto.sign(username + "-" + expiration.getTime()) + "-" + username + "-" + expiration.getTime(), duration);
 
-        }
+        }*/
         // Redirect to the original URL (or /)
         redirectToOriginalURL();
     }

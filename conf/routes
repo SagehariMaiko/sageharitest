@@ -5,6 +5,7 @@
 # Home page
 
 GET		/login									Secure.login
+POST	/login									Secure.authenticate
 GET		/service								Application.index
 GET     /logout         						Secure.logout
 
